@@ -18,5 +18,6 @@ echo "Creating .app bundle..."
 mkdir -p BoofaSketch.app/Contents/{MacOS,Resources}
 cp boofa-sketch BoofaSketch.app/Contents/MacOS/
 cp Info.plist BoofaSketch.app/Contents/
+cp Resources/app.icns BoofaSketch.app/Contents/Resources/
 
 echo "Done. Binary: boofa-sketch, Bundle: BoofaSketch.app"
